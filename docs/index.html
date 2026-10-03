@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MST — Shopee Sales Analyzer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8f9fa; color: #333; }
+    header { background: linear-gradient(135deg, #ee4d2d, #ff6b35); color: white; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 12px; }
+    header p { font-size: 1.15rem; opacity: 0.92; max-width: 600px; margin: 0 auto; }
+    .badge { display: inline-block; background: rgba(255,255,255,0.2); border-radius: 20px; padding: 4px 14px; font-size: 0.85rem; margin-top: 16px; }
+    section { max-width: 900px; margin: 0 auto; padding: 50px 20px; }
+    h2 { font-size: 1.6rem; color: #ee4d2d; margin-bottom: 24px; padding-bottom: 10px; border-bottom: 2px solid #fee; }
+    .about p { font-size: 1.05rem; line-height: 1.8; color: #555; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 10px; }
+    .feature-card { background: white; border-radius: 10px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); border-left: 4px solid #ee4d2d; }
+    .feature-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 8px; color: #222; }
+    .feature-card p { font-size: 0.9rem; color: #666; line-height: 1.6; }
+    .icon { font-size: 1.5rem; margin-bottom: 10px; }
+    .how-it-works ol { padding-left: 20px; }
+    .how-it-works li { font-size: 1rem; line-height: 1.9; color: #555; }
+    .permissions { background: white; border-radius: 10px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+    .permissions ul { padding-left: 20px; }
+    .permissions li { font-size: 0.95rem; line-height: 1.9; color: #555; }
+    .contact { background: white; border-radius: 10px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+    .contact p { font-size: 0.95rem; line-height: 1.8; color: #555; }
+    footer { text-align: center; padding: 30px; background: #333; color: #aaa; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MST Shopee Sales Analyzer</h1>
+  <p>An in-house seller analytics platform that transforms Shopee order data into actionable business insights.</p>
+  <span class="badge">🔒 In-House Seller Tool</span>
+</header>
+
+<section class="about">
+  <h2>About</h2>
+  <p>MST Shopee Sales Analyzer is a private, in-house business intelligence tool built for Shopee sellers to analyze their own store performance. It connects to the Shopee Open Platform API to securely collect order and product data, compute key performance indicators, generate prioritized business recommendations, and export Power BI-ready reports — all running locally on the seller's own machine.</p>
+</section>
+
+<section>
+  <h2>Key Features</h2>
+  <div class="features">
+    <div class="feature-card">
+      <div class="icon">📊</div>
+      <h3>KPI Dashboard</h3>
+      <p>Computes total revenue, order count, average order value, gross profit margin, return rate, and week-over-week / month-over-month trends.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🛍️</div>
+      <h3>Product Analytics</h3>
+      <p>Per-product revenue contribution, units sold, profit margin, and conversion rate analysis across all active listings.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">💡</div>
+      <h3>Smart Recommendations</h3>
+      <p>Automatically generates HIGH/MEDIUM/LOW priority recommendations for pricing, inventory, listings, and promotions.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">📁</div>
+      <h3>Power BI Export</h3>
+      <p>Exports star-schema CSV files (Sales Fact, Product Dim, Date Dim, Recommendation Fact) ready for Power BI dashboards.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🔄</div>
+      <h3>Scheduled Refresh</h3>
+      <p>Supports hourly, daily, and weekly automated data collection with full refresh history logging.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🔐</div>
+      <h3>Secure &amp; Private</h3>
+      <p>All data stays on the seller's local machine. Credentials are never logged. OAuth 2.0 tokens are stored in a local encrypted SQLite database.</p>
+    </div>
+  </div>
+</section>
+
+<section class="how-it-works">
+  <h2>How It Works</h2>
+  <ol>
+    <li>Seller authorizes the app via Shopee OAuth 2.0</li>
+    <li>The tool collects order and product data via Shopee Open Platform API</li>
+    <li>KPIs and product metrics are computed locally</li>
+    <li>Business recommendations are generated based on configurable rules</li>
+    <li>Reports are exported as JSON summaries and Power BI-ready CSV files</li>
+  </ol>
+</section>
+
+<section>
+  <h2>API Permissions Required</h2>
+  <div class="permissions">
+    <ul>
+      <li><strong>Order data</strong> — Read order list and order details for the authorized shop</li>
+      <li><strong>Product data</strong> — Read product listings, pricing, and stock information</li>
+      <li><strong>Shop profile</strong> — Read basic shop information</li>
+    </ul>
+    <p style="margin-top:16px;font-size:0.9rem;color:#888;">This tool only reads data. It does not create, modify, or delete any orders, products, or shop settings.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <div class="contact">
+    <p><strong>Product:</strong> MST Shopee Sales Analyzer<br/>
+    <strong>Type:</strong> In-house seller analytics tool (Seller In House System)<br/>
+    <strong>Data usage:</strong> All collected data is processed and stored locally on the seller's machine only. No data is transmitted to third-party servers.<br/>
+    <strong>Intended users:</strong> The shop owner and their authorized staff only.</p>
+  </div>
+</section>
+
+<footer>
+  <p>MST Shopee Sales Analyzer &mdash; In-House Seller Analytics Tool</p>
+</footer>
+
+</body>
+</html>
