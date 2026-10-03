@@ -1,0 +1,15 @@
+﻿config.yaml
+.hypothesis/
+*.egg-info/
+__pycache__/
+.venv/
+data/
+output/
+*.log
+debug_sign.py
+debug_sign2.py
+test_prod_url.py
+int_err.txt
+int_out.txt
+integration_results.txt
+uv.lock

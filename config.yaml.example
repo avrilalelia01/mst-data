@@ -1,0 +1,18 @@
+# Shopee Sales Analyzer — sample configuration
+# Copy this file to config.yaml and fill in your credentials.
+#
+# Required fields
+partner_id: 123456                  # Your Shopee Partner ID (integer)
+partner_key: "your_partner_key_here" # Your Shopee Partner Key (string; never commit to version control)
+shop_id: 78901234                   # Your Shopee Shop ID (integer)
+data_store_path: "./data/shopee.db" # Path to the SQLite database file
+output_dir: "./output"              # Directory where reports are written
+refresh_schedule: "daily"           # Scheduled refresh interval: hourly | daily | weekly
+default_period_days: 30             # Default Sales_Period window in days (positive integer)
+
+# Optional fields (shown with their defaults)
+log_level: "INFO"                   # Logging verbosity: DEBUG | INFO | WARN | ERROR
+log_file: "analyzer.log"            # Log output file path
+
+# NOTE: For sandbox testing use base URL: https://partner.test-stable.shopeemobile.com
+# NOTE: For production use base URL:      https://partner.shopeemobile.com

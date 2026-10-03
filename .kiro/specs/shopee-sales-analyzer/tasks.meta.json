@@ -1,0 +1,836 @@
+{
+  "pbtResults": {
+    "3.2 Write property test for Configuration round-trip (Property 1)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789479766723
+    },
+    "3.3 Write property test for Configuration error messages naming missing fields (Property 2)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789479804396
+    },
+    "6.2 Write property test for Order data mapping completeness (Property 3)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789481343855
+    },
+    "6.3 Write property test for Product data mapping completeness (Property 4)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789481351778
+    },
+    "6.5 Write property test for collection count accuracy (Property 6)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789481497076
+    },
+    "6.4 Write property test for paginated collection completeness (Property 5)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789481562880
+    },
+    "8.4 Write property test for product ranking ordering invariants (Property 9)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789482009912
+    },
+    "8.3 Write property test for per-product metric correctness (Property 8)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789482022107
+    },
+    "8.2 Write property test for KPI mathematical invariants (Property 7)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789482024385
+    },
+    "11.2 Write property test for JSON summary completeness (Property 13)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789703802629
+    },
+    "11.3 Write property test for Product CSV completeness (Property 14)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789704210248
+    },
+    "11.5 Write property test for Power BI export table completeness (Property 16)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789704212441
+    },
+    "11.4 Write property test for output filename format (Property 15)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789704730235
+    },
+    "11.6 Write property test for Date_Dim coverage and column completeness (Property 17)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789705592896
+    }
+  },
+  "executionHistory": {
+    "1. Scaffold project structure and shared utilities": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478133237
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789718021504
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789718027972
+      }
+    ],
+    "2.1 Define all dataclasses in `shopee_analyzer/models.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478133838
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478153480
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478716995
+      }
+    ],
+    "3.1 Implement `ConfigurationParser` in `shopee_analyzer/config.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478133965
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478723288
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789479332715
+      }
+    ],
+    "3.2 Write property test for Configuration round-trip (Property 1)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478134172
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789479669485
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480300634
+      }
+    ],
+    "3.3 Write property test for Configuration error messages naming missing fields (Property 2)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478134305
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789479675112
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480307374
+      }
+    ],
+    "4.1 Implement `AuthClient` in `shopee_analyzer/auth.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478134444
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789479681633
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480313627
+      }
+    ],
+    "4.2 Write unit tests for AuthClient": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478134598
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480323401
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480907795
+      }
+    ],
+    "5.1 Implement `DataStore` in `shopee_analyzer/storage.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478134790
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478728937
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789479663857
+      }
+    ],
+    "6.1 Implement `DataCollector` in `shopee_analyzer/collector.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478134940
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480329503
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480915548
+      }
+    ],
+    "6.2 Write property test for Order data mapping completeness (Property 3)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478135110
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480922352
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481584969
+      }
+    ],
+    "6.3 Write property test for Product data mapping completeness (Property 4)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478135251
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480929124
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481592401
+      }
+    ],
+    "6.4 Write property test for paginated collection completeness (Property 5)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478135377
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480934977
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481599416
+      }
+    ],
+    "6.5 Write property test for collection count accuracy (Property 6)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478135530
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480941834
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481611037
+      }
+    ],
+    "7. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478135646
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789718034999
+      },
+      {
+        "executionId": "92d6b307-3fa6-47ef-b4c6-94375d24a235",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789720684491
+      }
+    ],
+    "8.1 Implement `KPIEngine` in `shopee_analyzer/kpi_engine.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478135766
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480948795
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481618266
+      }
+    ],
+    "8.2 Write property test for KPI mathematical invariants (Property 7)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478135907
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481935203
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789482231995
+      }
+    ],
+    "8.3 Write property test for per-product metric correctness (Property 8)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478136043
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481942389
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789482237663
+      }
+    ],
+    "8.4 Write property test for product ranking ordering invariants (Property 9)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478136177
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481950635
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789482242269
+      }
+    ],
+    "9.1 Implement `RecommendationEngine` in `shopee_analyzer/recommendation_engine.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478136324
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481958618
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789482249057
+      }
+    ],
+    "9.2 Write property test for Recommendation structural invariants (Property 10)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478136481
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789482255983
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711833093
+      }
+    ],
+    "9.3 Write property test for Recommendation trigger rules (Property 11)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478136639
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789482261335
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711839761
+      }
+    ],
+    "9.4 Write property test for Recommendation count bounds (Property 12)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478136768
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789482266588
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711846841
+      }
+    ],
+    "10. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478136902
+      },
+      {
+        "executionId": "92d6b307-3fa6-47ef-b4c6-94375d24a235",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789718568692
+      },
+      {
+        "executionId": "92d6b307-3fa6-47ef-b4c6-94375d24a235",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789720691543
+      }
+    ],
+    "11.1 Implement `ReportGenerator` in `shopee_analyzer/report_generator.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478137040
+      },
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789482272673
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789705107608
+      }
+    ],
+    "11.2 Write property test for JSON summary completeness (Property 13)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478137174
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789702725746
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789705114745
+      }
+    ],
+    "11.3 Write property test for Product CSV completeness (Property 14)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478137290
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789702729646
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789705120712
+      }
+    ],
+    "11.4 Write property test for output filename format (Property 15)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478137438
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789702733666
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789705126098
+      }
+    ],
+    "11.5 Write property test for Power BI export table completeness (Property 16)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478137591
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789702737382
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789705132875
+      }
+    ],
+    "11.6 Write property test for Date_Dim coverage and column completeness (Property 17)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478137745
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789702741683
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711854283
+      }
+    ],
+    "12.1 Implement `RefreshScheduler` in `shopee_analyzer/scheduler.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478137905
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789702762690
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711860943
+      }
+    ],
+    "12.2 Write property test for incremental collection window correctness (Property 18)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478138061
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789705140735
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711867844
+      }
+    ],
+    "12.3 Write property test for refresh history entry completeness (Property 19)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478138215
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789705148252
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711874681
+      }
+    ],
+    "12.4 Write unit tests for schedule parsing": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478138380
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789705155409
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711881232
+      }
+    ],
+    "13.1 Implement structured logging in `shopee_analyzer/logging_setup.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478138523
+      },
+      {
+        "executionId": "b9e3852f-7f33-4e72-b65e-f4e0a4e37a62",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789705162459
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789712841294
+      }
+    ],
+    "13.2 Write property test for structured log entry completeness (Property 20)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478138696
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711895281
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789712848183
+      }
+    ],
+    "13.3 Write property test for run summary completeness (Property 21)": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478138885
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711907860
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789712854096
+      }
+    ],
+    "14. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478139147
+      },
+      {
+        "executionId": "92d6b307-3fa6-47ef-b4c6-94375d24a235",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789718569126
+      },
+      {
+        "executionId": "92d6b307-3fa6-47ef-b4c6-94375d24a235",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789720698458
+      }
+    ],
+    "15.1 Implement `Pipeline` class in `shopee_analyzer/pipeline.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478139277
+      },
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711914475
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789715895316
+      }
+    ],
+    "15.2 Implement CLI entry point in `shopee_analyzer/cli.py`": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478139388
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789713170788
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789715902168
+      }
+    ],
+    "15.3 Write integration tests for the full pipeline": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478139495
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789715923925
+      },
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789717990334
+      }
+    ],
+    "16. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478139589
+      },
+      {
+        "executionId": "92d6b307-3fa6-47ef-b4c6-94375d24a235",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789718569645
+      },
+      {
+        "executionId": "92d6b307-3fa6-47ef-b4c6-94375d24a235",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789720705065
+      }
+    ],
+    "2. Implement data models": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789478717127
+      }
+    ],
+    "5. Implement Data Store": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789479664010
+      }
+    ],
+    "3. Implement Configuration Parser": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480307486
+      }
+    ],
+    "4. Implement Auth Client": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789480907904
+      }
+    ],
+    "6. Implement Data Collector": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789481611154
+      }
+    ],
+    "8. Implement KPI Engine": [
+      {
+        "executionId": "2e2a86d7-4a7a-4c69-ad05-35f42715fd8f",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789482242353
+      }
+    ],
+    "9. Implement Recommendation Engine": [
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711846983
+      }
+    ],
+    "11. Implement Report Generator": [
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711854434
+      }
+    ],
+    "12. Implement Scheduler": [
+      {
+        "executionId": "f73c997d-0533-488c-afa1-99a3175f2430",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789711881383
+      }
+    ],
+    "13. Implement Logging and Run Summary": [
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789712854145
+      }
+    ],
+    "15. Wire pipeline and implement CLI entry point": [
+      {
+        "executionId": "bb38407d-f914-4cb8-a1d5-ef7009499e2b",
+        "chatSessionId": "sess_0e863933-05c8-4cf9-83f1-fb583f4aa163",
+        "timestamp": 1789717990445
+      }
+    ]
+  }
+}
